@@ -1,0 +1,82 @@
+# ==========================================================
+#                 DiscoVerse Database Configuration
+# ==========================================================
+
+database:
+
+  # SQLITE or MYSQL
+  type: SQLITE
+
+  auto-create-tables: true
+
+  auto-backup: true
+
+  backup-interval: 1440
+
+  connection-timeout: 30000
+
+  maximum-pool-size: 10
+
+  minimum-idle: 2
+
+  keepalive-time: 300000
+
+  max-lifetime: 1800000
+
+
+
+sqlite:
+
+  file: "database.db"
+
+
+
+mysql:
+
+  enabled: false
+
+  host: "localhost"
+
+  port: 3306
+
+  database: "discoverse"
+
+  username: "root"
+
+  password: ""
+
+  use-ssl: false
+
+  allow-public-key-retrieval: true
+
+  character-encoding: "utf8mb4"
+
+
+
+tables:
+
+  linked-accounts: "discoverse_links"
+
+  player-data: "discoverse_players"
+
+  punishments: "discoverse_punishments"
+
+  logs: "discoverse_logs"
+
+
+
+cache:
+
+  enabled: true
+
+  expire-after: 300
+
+
+
+logging:
+
+  log-connections: false
+
+  log-queries: false
+
+  log-errors: true

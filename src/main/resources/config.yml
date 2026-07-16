@@ -1,0 +1,73 @@
+# ==========================================================
+#                     DiscoVerse Configuration
+# ==========================================================
+
+plugin:
+
+  debug: false
+
+  language: en_US
+
+  prefix: "<gradient:#5865F2:#7289DA>DISCOVERSE</gradient>"
+
+  check-for-updates: true
+
+  metrics: true
+
+  startup-message: true
+
+  shutdown-message: true
+
+
+
+server:
+
+  name: "Minecraft Server"
+
+  timezone: "Asia/Kolkata"
+
+  online-mode: true
+
+
+
+logging:
+
+  console: true
+
+  file: true
+
+  debug: false
+
+
+
+cache:
+
+  enabled: true
+
+  expiration-time: 300
+
+
+
+performance:
+
+  async-tasks: true
+
+  max-threads: 4
+
+
+
+security:
+
+  verify-configs: true
+
+  block-invalid-requests: true
+
+  hide-bot-token: true
+
+
+
+developer:
+
+  developer-mode: false
+
+  experimental-features: false

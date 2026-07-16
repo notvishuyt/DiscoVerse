@@ -1,0 +1,103 @@
+# ==========================================================
+#                    DiscoVerse Messages
+# ==========================================================
+
+prefix: "<gradient:#5865F2:#7289DA>DISCOVERSE</gradient>"
+
+general:
+
+  no-permission: "<red>You do not have permission to use this command."
+
+  player-only: "<red>This command can only be used by players."
+
+  console-only: "<red>This command can only be used from the console."
+
+  invalid-player: "<red>Player not found."
+
+  invalid-command: "<red>Unknown command."
+
+  plugin-reloaded: "<green>DiscoVerse has been reloaded successfully."
+
+  plugin-enabled: "<green>DiscoVerse has been enabled."
+
+  plugin-disabled: "<red>DiscoVerse has been disabled."
+
+
+
+discord:
+
+  connecting: "<yellow>Connecting to Discord..."
+
+  connected: "<green>Successfully connected to Discord."
+
+  disconnected: "<red>Disconnected from Discord."
+
+  reconnecting: "<yellow>Reconnecting to Discord..."
+
+  invalid-token: "<red>Invalid Discord Bot Token."
+
+  missing-token: "<red>No Discord Bot Token configured."
+
+
+
+link:
+
+  code-generated: "<green>Your link code is <gold>%code%</gold>."
+
+  success: "<green>Your Discord account has been linked successfully."
+
+  already-linked: "<yellow>Your account is already linked."
+
+  not-linked: "<red>Your account is not linked."
+
+  unlink-success: "<green>Your Discord account has been unlinked."
+
+  expired: "<red>Your link code has expired."
+
+  invalid-code: "<red>Invalid link code."
+
+
+
+chat:
+
+  discord-to-minecraft: "<gray>[Discord]</gray> <white>%player%</white>: %message%"
+
+  minecraft-to-discord: "%player%: %message%"
+
+
+
+commands:
+
+  reload-success: "<green>Configuration reloaded successfully."
+
+  debug-enabled: "<green>Debug mode enabled."
+
+  debug-disabled: "<red>Debug mode disabled."
+
+
+
+errors:
+
+  unknown-error: "<red>An unknown error occurred."
+
+  database-error: "<red>Database connection failed."
+
+  discord-error: "<red>Discord connection failed."
+
+  config-error: "<red>Configuration error detected."
+
+
+
+startup:
+
+  loading: "<yellow>Loading DiscoVerse..."
+
+  loaded: "<green>DiscoVerse loaded successfully."
+
+
+
+shutdown:
+
+  stopping: "<yellow>Stopping DiscoVerse..."
+
+  stopped: "<red>DiscoVerse has been disabled."

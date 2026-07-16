@@ -1,0 +1,175 @@
+# ==========================================================
+#                  DiscoVerse Embed Configuration
+# ==========================================================
+
+settings:
+
+  enabled: true
+
+  timestamp: true
+
+  footer:
+    enabled: true
+    text: "Powered by DiscoVerse"
+
+  thumbnail:
+    enabled: true
+
+  author:
+    enabled: false
+
+  color:
+
+    success: "#57F287"
+
+    error: "#ED4245"
+
+    warning: "#FEE75C"
+
+    info: "#5865F2"
+
+
+
+join:
+
+  enabled: true
+
+  title: "Player Joined"
+
+  description: "%player% joined the server."
+
+  color: "#57F287"
+
+
+
+leave:
+
+  enabled: true
+
+  title: "Player Left"
+
+  description: "%player% left the server."
+
+  color: "#ED4245"
+
+
+
+chat:
+
+  enabled: true
+
+  title: "Minecraft Chat"
+
+  color: "#5865F2"
+
+
+
+death:
+
+  enabled: true
+
+  title: "Player Death"
+
+  description: "%player% died."
+
+  color: "#ED4245"
+
+
+
+advancement:
+
+  enabled: true
+
+  title: "Advancement Made"
+
+  description: "%player% has made an advancement."
+
+  color: "#FEE75C"
+
+
+
+server:
+
+  startup:
+
+    enabled: true
+
+    title: "Server Started"
+
+    description: "The Minecraft server is now online."
+
+    color: "#57F287"
+
+  shutdown:
+
+    enabled: true
+
+    title: "Server Stopped"
+
+    description: "The Minecraft server has been stopped."
+
+    color: "#ED4245"
+
+
+
+link:
+
+  success:
+
+    enabled: true
+
+    title: "Account Linked"
+
+    description: "%player% linked their Discord account."
+
+    color: "#57F287"
+
+  unlink:
+
+    enabled: true
+
+    title: "Account Unlinked"
+
+    description: "%player% unlinked their Discord account."
+
+    color: "#ED4245"
+
+
+
+punishment:
+
+  enabled: true
+
+  title: "Punishment"
+
+  color: "#ED4245"
+
+
+
+inventory:
+
+  enabled: true
+
+  title: "Player Inventory"
+
+  color: "#5865F2"
+
+
+
+enderchest:
+
+  enabled: true
+
+  title: "Ender Chest"
+
+  color: "#5865F2"
+
+
+
+afk:
+
+  enabled: true
+
+  title: "AFK Status"
+
+  color: "#FEE75C"

@@ -1,0 +1,169 @@
+# ==========================================================
+#                DiscoVerse English Language
+# ==========================================================
+
+plugin:
+
+  name: "DiscoVerse"
+
+  prefix: "<gradient:#5865F2:#7289DA>DISCOVERSE</gradient>"
+
+
+
+general:
+
+  yes: "Yes"
+
+  no: "No"
+
+  enabled: "Enabled"
+
+  disabled: "Disabled"
+
+  loading: "Loading..."
+
+  success: "Success!"
+
+  failed: "Failed!"
+
+  unknown: "Unknown"
+
+  none: "None"
+
+
+
+commands:
+
+  help: "Help"
+
+  reload: "Reload"
+
+  debug: "Debug"
+
+  link: "Link"
+
+  unlink: "Unlink"
+
+  version: "Version"
+
+  status: "Status"
+
+
+
+permissions:
+
+  denied: "You do not have permission."
+
+
+
+discord:
+
+  connected: "Connected"
+
+  disconnected: "Disconnected"
+
+  reconnecting: "Reconnecting..."
+
+  connecting: "Connecting..."
+
+  invalid-token: "Invalid Bot Token"
+
+  missing-token: "Bot Token Missing"
+
+  bot-online: "Bot is Online"
+
+  bot-offline: "Bot is Offline"
+
+
+
+link:
+
+  linked: "Account Linked"
+
+  unlinked: "Account Unlinked"
+
+  already-linked: "Account Already Linked"
+
+  not-linked: "Account Not Linked"
+
+  invalid-code: "Invalid Link Code"
+
+  expired-code: "Link Code Expired"
+
+
+
+chat:
+
+  minecraft: "Minecraft"
+
+  discord: "Discord"
+
+
+
+embeds:
+
+  join-title: "Player Joined"
+
+  leave-title: "Player Left"
+
+  death-title: "Player Death"
+
+  advancement-title: "Advancement"
+
+  inventory-title: "Inventory"
+
+  enderchest-title: "Ender Chest"
+
+  punishment-title: "Punishment"
+
+  server-start-title: "Server Started"
+
+  server-stop-title: "Server Stopped"
+
+
+
+server:
+
+  online: "Online"
+
+  offline: "Offline"
+
+  starting: "Starting"
+
+  stopping: "Stopping"
+
+
+
+database:
+
+  connected: "Database Connected"
+
+  disconnected: "Database Disconnected"
+
+  error: "Database Error"
+
+
+
+developer:
+
+  debug-enabled: "Debug Mode Enabled"
+
+  debug-disabled: "Debug Mode Disabled"
+
+
+
+placeholders:
+
+  player: "%player%"
+
+  discord-user: "%discord_user%"
+
+  server: "%server%"
+
+  message: "%message%"
+
+  online: "%online%"
+
+  max-players: "%max_players%"
+
+  ping: "%ping%"

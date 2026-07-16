@@ -1,0 +1,67 @@
+name: DiscoVerse
+version: '${project.version}'
+main: dev.discoverse.DiscoVerse
+
+api-version: '1.21'
+
+author: NOTVISHUYT
+
+website: https://github.com/NOTVISHUYT/DiscoVerse
+
+description: >
+  Advanced All-In-One Discord Integration Plugin
+  for PaperMC Servers.
+
+prefix: DISCOVERSE
+
+load: POSTWORLD
+
+folia-supported: false
+
+commands:
+
+  discoverse:
+    description: Main DiscoVerse command.
+    usage: "/discoverse"
+    aliases:
+      - dv
+      - disco
+    permission: discoverse.command
+    permission-message: "&cYou don't have permission to use this command."
+
+permissions:
+
+  discoverse.*:
+    description: Gives access to every DiscoVerse permission.
+    default: op
+    children:
+      discoverse.command: true
+      discoverse.reload: true
+      discoverse.debug: true
+      discoverse.link: true
+      discoverse.unlink: true
+      discoverse.admin: true
+
+  discoverse.command:
+    description: Allows using the main DiscoVerse command.
+    default: true
+
+  discoverse.reload:
+    description: Allows reloading the plugin.
+    default: op
+
+  discoverse.debug:
+    description: Allows debugging DiscoVerse.
+    default: op
+
+  discoverse.link:
+    description: Allows linking a Discord account.
+    default: true
+
+  discoverse.unlink:
+    description: Allows unlinking a Discord account.
+    default: true
+
+  discoverse.admin:
+    description: Grants administrative access.
+    default: op

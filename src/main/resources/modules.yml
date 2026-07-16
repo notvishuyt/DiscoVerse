@@ -1,0 +1,153 @@
+# ==========================================================
+#                  DiscoVerse Modules
+# ==========================================================
+
+general:
+
+  enabled: true
+
+
+
+discord:
+
+  enabled: true
+
+  bot: true
+
+  presence: true
+
+  slash-commands: true
+
+  webhooks: false
+
+
+
+chat:
+
+  enabled: true
+
+  bridge: true
+
+  discord-to-minecraft: true
+
+  minecraft-to-discord: true
+
+
+
+account-linking:
+
+  enabled: true
+
+  link-command: true
+
+  unlink-command: true
+
+  auto-link-sync: true
+
+
+
+role-sync:
+
+  enabled: true
+
+  sync-on-join: true
+
+  sync-on-link: true
+
+  sync-on-unlink: true
+
+
+
+embeds:
+
+  enabled: true
+
+  join: true
+
+  leave: true
+
+  chat: true
+
+  death: true
+
+  advancement: true
+
+  server-status: true
+
+  punishment: true
+
+  inventory: true
+
+  ender-chest: true
+
+  afk: true
+
+
+
+server:
+
+  enabled: true
+
+  startup-message: true
+
+  shutdown-message: true
+
+  status-updater: true
+
+
+
+inventory:
+
+  enabled: true
+
+  inventory-viewer: true
+
+  ender-chest-viewer: true
+
+
+
+punishments:
+
+  enabled: true
+
+  bans: true
+
+  mutes: true
+
+  kicks: true
+
+  warns: true
+
+
+
+afk:
+
+  enabled: true
+
+  auto-afk: true
+
+  afk-notifications: true
+
+
+
+logging:
+
+  enabled: true
+
+  console: true
+
+  file: true
+
+  discord: true
+
+
+
+developer:
+
+  enabled: false
+
+  debug-tools: false
+
+  profiler: false
+
+  experimental-features: false

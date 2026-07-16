@@ -1,0 +1,143 @@
+# ==========================================================
+#                  DiscoVerse Discord Configuration
+# ==========================================================
+
+bot:
+
+  token: ""
+
+  guild-id: ""
+
+  activity:
+
+    type: PLAYING
+
+    text: "Minecraft"
+
+    status: ONLINE
+
+  reconnect: true
+
+  auto-register-slash-commands: true
+
+
+
+channels:
+
+  chat: ""
+
+  console: ""
+
+  join-leave: ""
+
+  server-status: ""
+
+  punishments: ""
+
+  advancements: ""
+
+  deaths: ""
+
+  logs: ""
+
+
+
+chat-bridge:
+
+  enabled: true
+
+  allow-discord-to-minecraft: true
+
+  allow-minecraft-to-discord: true
+
+  webhook-mode: false
+
+  use-player-avatar: true
+
+  show-server-prefix: true
+
+  mention-everyone: false
+
+  mention-here: false
+
+
+
+account-linking:
+
+  enabled: true
+
+  auto-sync-roles: true
+
+  link-expiration: 300
+
+  allow-relink: true
+
+
+
+role-sync:
+
+  enabled: true
+
+  sync-on-join: true
+
+  sync-on-link: true
+
+  remove-role-on-unlink: true
+
+
+
+presence:
+
+  enabled: true
+
+  update-interval: 60
+
+  show-online-players: true
+
+  show-max-players: true
+
+
+
+server-status:
+
+  enabled: true
+
+  update-interval: 60
+
+  auto-update-channel-name: false
+
+
+
+slash-commands:
+
+  enabled: true
+
+  sync-on-startup: true
+
+
+
+webhooks:
+
+  enabled: false
+
+  url: ""
+
+
+
+embeds:
+
+  enabled: true
+
+  timestamp: true
+
+  footer: "Powered by DiscoVerse"
+
+
+
+security:
+
+  hide-token-in-console: true
+
+  verify-guild-on-startup: true
+
+  verify-channel-ids: true

@@ -1,0 +1,63 @@
+# ============================================================
+# DiscoVerse .gitignore
+# ============================================================
+
+# Gradle
+.gradle/
+build/
+out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+
+# Java
+*.class
+*.log
+hs_err_pid*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Local configuration
+local.properties
+
+# Generated jars
+*.jar
+!gradle-wrapper.jar
+
+# Maven
+target/
+
+# Kotlin
+*.kotlin_module
+
+# Android
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Secrets (Never upload these)
+token.txt
+bot-token.txt
+.env
+
+# Logs
+logs/
