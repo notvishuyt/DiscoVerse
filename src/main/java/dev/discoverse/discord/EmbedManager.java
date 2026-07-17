@@ -23,8 +23,9 @@ import java.time.Instant;
  *
  * Future:
  * - Load colors from embeds.yml
- * - Load footer from config
- * - Load thumbnail/icon automatically
+ * - Automatic footer
+ * - Automatic thumbnails
+ * - Author icons
  *
  * @author NOTVISHUYT
  * @version 1.0.0
@@ -38,30 +39,11 @@ public final class EmbedManager {
      *
      * @param configManager Configuration manager.
      */
-    public EmbedManager(final ConfigManager configManager) {
-        this.configManager = configManager;
-    }
-
-    /**
-     * Creates a generic embed.
-     *
-     * @param title Embed title.
-     * @param description Embed description.
-     * @param color Embed color.
-     * @return MessageEmbed.
-     */
-    private MessageEmbed createEmbed(
-            final String title,
-            final String description,
-            final Color color
+    public EmbedManager(
+            final ConfigManager configManager
     ) {
 
-        return new EmbedBuilder()
-                .setTitle(title)
-                .setDescription(description)
-                .setColor(color)
-                .setTimestamp(Instant.now())
-                .build();
+        this.configManager = configManager;
 
     }
 
@@ -77,10 +59,15 @@ public final class EmbedManager {
             final String description
     ) {
 
-        return createEmbed(title, description, Color.CYAN);
+        return new EmbedBuilder()
+                .setTitle(title)
+                .setDescription(description)
+                .setColor(Color.CYAN)
+                .setTimestamp(Instant.now())
+                .build();
 
     }
-
+    
     /**
      * Creates a success embed.
      *
@@ -93,7 +80,12 @@ public final class EmbedManager {
             final String description
     ) {
 
-        return createEmbed(title, description, Color.GREEN);
+        return new EmbedBuilder()
+                .setTitle(title)
+                .setDescription(description)
+                .setColor(Color.GREEN)
+                .setTimestamp(Instant.now())
+                .build();
 
     }
 
@@ -109,7 +101,12 @@ public final class EmbedManager {
             final String description
     ) {
 
-        return createEmbed(title, description, Color.RED);
+        return new EmbedBuilder()
+                .setTitle(title)
+                .setDescription(description)
+                .setColor(Color.RED)
+                .setTimestamp(Instant.now())
+                .build();
 
     }
 
@@ -125,7 +122,12 @@ public final class EmbedManager {
             final String description
     ) {
 
-        return createEmbed(title, description, Color.ORANGE);
+        return new EmbedBuilder()
+                .setTitle(title)
+                .setDescription(description)
+                .setColor(Color.ORANGE)
+                .setTimestamp(Instant.now())
+                .build();
 
     }
 
@@ -133,4 +135,31 @@ public final class EmbedManager {
      * Creates an information embed.
      *
      * @param title Embed title.
+     * @param description Embed description.
+     * @return MessageEmbed.
+     */
+    public MessageEmbed info(
+            final String title,
+            final String description
+    ) {
+
+        return new EmbedBuilder()
+                .setTitle(title)
+                .setDescription(description)
+                .setColor(Color.BLUE)
+                .setTimestamp(Instant.now())
+                .build();
+
+    }
+
+    /**
+     * Returns the configuration manager.
+     *
+     * @return Configuration manager.
+     */
+    public ConfigManager getConfigManager() {
+        return configManager;
+    }
+
+}
     
